@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>Aasthaa Bansal</title>
+   <meta name="keywords" content="" />
+   <meta name="description" content="" />
+   <link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="header">
+   <div id="logo">
+      <h1><a href="index.html">Aasthaa Bansal</a></h1>
+   </div>
+   <div id="menu">
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="publications.html">Publications</a></li>
+         <li class="active"><a href="software.html">Software</a></li>
+         <li><a href="teaching.html">Teaching</a></li>
+         <li><a target="_blank" href="BansalCV.pdf">CV</a></li>
+         <li><a href="workingGroup.html">Working group</a></li>
+      </ul>
+   </div>
+</div>
+
+<br>
+
+<div id="publications">
+<br> 
+
+<h3>Basic Receiver Operating Characteristic (ROC) Analysis</h3>
+Authors: Bansal A, Morris DM, Longton G, Pepe MS, Janes H
+<br>
+<br>
+The <b><font color=="800000">pcvsuite</font></b> package for R can be downloaded here:
+<br>[<a href="Software/pcvsuite_1.0.zip">Windows (R 2.10.1)</a>] 
+[<a href="Software/pcvsuite_1.0_R_i386-apple-darwin8.11.1.tar.gz">Apple OS (R 2.9.0)</a>] 
+[<a href="Software/pcvsuiteRaw.zip">Unbuilt Source Directory</a>]
+<br>
+<br>
+The package contains four main functions:
+<br> 
+   <ul>
+      <li><b>roccurve</b>: Plots an estimate of the ROC curve for one or more diagnostic 
+         tests (or biomarkers). Confidence intervals can be displayed for the true 
+         positive fraction corresponding to a specified false positive fraction. 
+         Confidence intervals are calculated using the bootstrap. Accommodates covariate 
+         adjustment. [<a href="Software/roccurve.pdf">R help file</a>]
+      </li>
+      <li><b>comproc</b>: Calculates summary ROC indices for two tests along with 
+         confidence intervals for each and for the difference. A p-value for testing 
+         equality of the ROCs based on the summary indices is output.  Accommodates 
+         covariate adjustment. [<a href="Software/comproc.pdf">R help file</a>]
+      </li>
+      <li><b>rocreg</b>: Fits an ROC-GLM regression model.  Accommodates covariate 
+         adjustment. [<a href="Software/rocreg.pdf">R help file</a>]
+      </li>
+      <li><b>predcurve</b>: Uses the risk distribution associated with a marker or model 
+         to evaluate marker utility when applied to the population. The classification 
+         performance is optionally included in an integrated display of predictiveness 
+         and classification measures. Alternate graphical outputs include CDFs and 
+         densities of the risk estimation. Support for nested models, and for testing 
+         differences between two models is provided. 
+         [<a href="Software/predcurve1.pdf">Stata help file</a>]
+      </li>      
+</ul>
+
+Additional Documentation:
+<br> 
+   <ul>
+      <li>roccurve, comproc, rocreg: The following articles describe the functions and their options in more detail. 
+            The syntax in the articles is Stata-specific; however, the implementation of the 
+            functions in R remain the same. The arguments are also the same between R and Stata.
+         <br><p>Pepe MS, Longton G, Janes H (2009). Estimation and comparison of receiver
+            operating characteristic curves. 
+            <i>The Stata Journal</i>, 1: 1-16. 
+            [<a href="Software/Pepe_et_al_SJ9-1.pdf">pdf</a>]
+            </p>
+            <p>Janes H, Longton G, Pepe MS (2009). Accommodating covariates in receiver
+            operating characteristic analysis. 
+            <i>The Stata Journal</i>, 1: 17-39. 
+            [<a href="Software/Janes_et_al_SJ9-1.pdf">pdf</a>]
+            </p>
+            <!--<p>These articles describe the functions and their options in more detail. 
+            The syntax in the articles is Stata-specific; however, the methods and 
+            rationale used to implement the functions in R remain the same. 
+            The arguments are also the same between R and Stata.
+            </p>-->
+      </li>
+      <li>predcurve:
+         <br><p>Pepe MS, Feng Z, Huang Y, Longton G, Prentice R, Thompson IM, 
+            Zheng Y (2008). Integrating the predictiveness of a marker with its 
+            performance as a classifier. 
+            <i>American Journal of Epidemiology</i>, 167(3): 362-368. 
+            [<a href="Software/AmJourEpi_PredCurve.pdf">pdf</a>]
+            </p>
+      </li>
+   </ul>
+<br>
+<br>
+<br>
+<br>
+
+<!--
+   <dl>
+      <dt>roccurve, comproc, rocreg: The following articles describe the functions and their options in more detail. 
+            The syntax in the articles is Stata-specific; however, the implementation of the 
+            functions in R remain the same. The arguments are also the same between R and Stata.</dt>
+            <dd>- Pepe MS, Longton G, Janes H (2009). Estimation and comparison of receiver
+            operating characteristic curves. 
+            <i>The Stata Journal</i>, 1: 1-16. 
+            [<a href="Software/Pepe_et_al_SJ9-1.pdf">pdf</a>]
+            </dd>
+            <dd>- Janes H, Longton G, Pepe MS (2009). Accommodating covariates in receiver
+            operating characteristic analysis. 
+            <i>The Stata Journal</i>, 1: 17-39. 
+            [<a href="Software/Janes_et_al_SJ9-1.pdf">pdf</a>]
+            </dd>
+      <dt>predcurve:</dt>
+            <dd>- Pepe MS, Feng Z, Huang Y, Longton G, Prentice R, Thompson IM, 
+            Zheng Y (2008). Integrating the predictiveness of a marker with its 
+            performance as a classifier. 
+            <i>American Journal of Epidemiology</i>, 167(3): 362-368. 
+            [<a href="Software/AmJourEpi_PredCurve.pdf">pdf</a>]
+            </dd>
+   </dl>
+-->
+
+
+
+
+
+
+    </div>
+  </body>
+</html>
+
