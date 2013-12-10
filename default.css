@@ -245,6 +245,35 @@ a:visited {
 
 
 
+#footnote {
+	width: 750px;
+	height: 350px;
+	margin: 0 auto;
+	!padding:10;
+        !padding:10px 30px 0px 0px;
+}
+
+#footnote p {
+    /*top right bottom left*/
+	padding: 7px 30px 0px 20px;
+	text-align: center;
+	!font-weight: bold;
+	color: #303030;
+	!color: #666699;
+    !color: #E65EA2;
+}
+
+#footnote a:link {
+	color: #A80000;
+	text-decoration: none;
+}
+
+#footnote a:visited { 
+	color: #A80000;
+    text-decoration: none;
+}
+
+
 #splash {
 	width: 700px;
 	height: 200px;
