@@ -257,7 +257,7 @@ a:visited {
     /*top right bottom left*/
 	padding: 7px 30px 0px 20px;
 	text-align: center;
-	!font-weight: bold;
+	font-size: 77%;
 	color: #303030;
 	!color: #666699;
     !color: #E65EA2;
